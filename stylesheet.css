@@ -1,0 +1,296 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+
+.navbar{
+
+    width: auto;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: 60px;
+    gap: 2rem;
+    font: 18px;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button{
+    background-color: hsl(0, 0%, 98%);
+    border: 0ch;
+
+}
+
+.right{
+    float: right;
+    display: flex;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 150px;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.login{
+
+    height: 20px;
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Epilogue';
+    font-size: 14px;
+    color:  hsl(0, 0%, 8%);
+    padding-top: 5px;
+}
+.register{
+    border: 2px solid  hsl(0, 0%, 8%);
+    width: 70px;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color:  hsl(0, 0%, 8%);
+    font-family: 'Epilogue';
+    font-size: 14px;
+    padding-top: 9px;
+    border-radius: 9px;
+
+    
+}
+.register a{
+    color:  hsl(0, 0%, 8%);
+}
+
+.login a{
+   color:hsl(0, 0%, 8%) ; 
+}
+
+
+.left{
+    float: right;
+    display: flex;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 700px;
+}
+
+.careers , .about {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.features-content1{
+    display: none; 
+    border: 0ch;
+}
+
+  .tools :hover .features-content1{
+      display: block;
+      text-decoration: none;
+     
+  }
+
+  .features-content2{
+    display: none; 
+    border: 0ch;
+}
+
+  .tools :hover .features-content2{
+      display: block;
+      text-decoration: none;
+     
+  }
+ 
+  .features-content1 ul{
+      list-style: none;
+      display: flex;
+      width: 125px;
+      height: 120px;
+      flex-direction: column;
+      padding-left: 2px;
+      align-items: center;
+      margin-left: -50px;
+      justify-content: space-between;
+      padding-top: 5px;
+      border-radius: 5px;
+      padding-bottom: 5px;
+      font-family: 'Epilogue';
+      font-size: 14px;
+      box-shadow: 1px 1px 10px 2px hsl(0, 0%, 41%);
+      color: hsl(0, 0%, 41%);
+  }
+
+  .features-content2 ul{
+    list-style: none;
+    display: flex;
+    width: 100px;
+    height: 80px;
+    flex-direction: column;
+    padding-left: 2px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 10px 2px hsl(0, 0%, 41%);
+    margin-left: -30px;
+    border-radius: 5px;
+    font-family: 'Epilogue' ,sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 41%);
+    
+    
+}
+
+  .logo{
+         margin-top: auto;
+         margin-bottom: auto;
+         height: 30px;
+
+      
+  }
+
+  .drop1 , .drop2{
+    
+      width: 80px;
+      height: 25px;
+      font-size: 15px;
+       color: hsl(0, 0%, 41%);
+       font-family: 'Epilogue' ,sans-serif;
+
+
+  }
+
+  li{
+      padding-left: 2px;
+      margin-left: 0%;
+  }
+
+  #todo , #calendar , #reminder , #planning{
+      padding-right: 8px;
+      margin-bottom: -2px;
+  }.careers , .about{
+    padding-top: 4px;
+  }
+
+  .careers a{
+    font-family: 'Epilogue' ,sans-serif;
+    color: hsl(0, 0%, 41%);
+    
+  }
+  .about a{
+    font-family: 'Epilogue' ,sans-serif;
+    color: hsl(0, 0%, 41%);
+
+  }
+
+  .container{
+    
+      display: flex;
+      flex-direction: row;
+      margin-top: 4rem;
+      height: 500px;
+  }
+  .east{
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .west{
+
+      width: 60%;
+
+  }
+
+  .wester{
+
+       width: 52%;
+       margin-left: auto;
+       margin-right: auto;
+       height: 500px;
+
+  }
+
+  h1{
+
+    font-family: 'Epilogue';
+    font-weight: 700px;
+    font-size: 60px;
+
+  }
+
+  #short{
+
+    font-family: 'Epilogue';
+    color: hsl(0, 0%, 41%);
+
+  }
+  .east img{
+
+      margin-left: 70px;
+      margin-right: auto;
+  
+  }
+
+  .learnmore{
+      width: 115px;
+      height: 30px;
+      border: 1px solid  hsl(0, 0%, 8%);
+      border-radius: 9px;
+      color:  hsl(0, 0%, 8%);
+      font-family:'Epilogue' ;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      padding-left: 25px;
+      padding-top: 11px;
+
+  }
+
+ 
+  #biz , #audio , #meet , #maker{
+
+    
+    margin-left: 9px;
+    
+
+  }
+
+  #biz{
+      margin-left: 0px;
+      
+  }
+  #maker{
+      margin-right: 0px;
+  }
